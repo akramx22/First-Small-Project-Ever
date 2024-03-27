@@ -1,0 +1,278 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+
+body{
+    background-image: url("1becc9ae3737653cb9145dd74f92a76d.jpeg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.container{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 612px;
+    min-height: 70vh;
+    width: 1033px;
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 18px 25px 69px 0px #00000042,
+                74px 101px 125px 0px #00000038,
+                166px 228px 169px 0px #00000021,
+                295px 405px 200px 0px #0000000A,
+                461px 632px 219px 0px #00000000;
+}
+
+
+.image1{
+    width: 32%;
+    height: 100%;
+    border-radius: 15px;
+    opacity: 0px;
+    gap: 0px;
+}
+
+
+.container_text1{  
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.image_google{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+
+.containerr{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.hi{
+    text-align: end;
+    font-size: 250%;
+    margin-bottom: 60px;
+}
+
+
+.container input{
+    text-align: end;
+    outline: none;
+    padding: 10px;
+    padding-right: 50px;
+    gap: 15px;
+    opacity: 60%;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.708);
+    margin: 10px 0; 
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+
+.login{
+    font-family:"Montserrat",sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.29px;
+    text-align: right;
+    color:#000000;
+    opacity: 42%;
+    padding: 0 10px;
+    position: relative;
+    bottom: 30px;
+    right: 5%;
+}
+
+
+.login::before,.login::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 104px;
+    height: 2px;
+    background-color: #0000006B;
+    font-size: 20px;
+}
+
+
+.login::before{
+    left: 100px;
+}
+
+
+.login::after{
+    right: 100px;
+}
+
+
+.sociale{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 240px;
+    position: relative;
+    right: 5%;
+}
+
+
+.container_text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    position: relative ; 
+    left: 2%;  
+}
+
+
+.icon_apple{
+    font-size: 40px;
+    color: black;
+    transition: .5s;
+}
+
+
+.icon_apple:hover,.icon_facebook:hover,.fa-google:hover{
+    transform: scale(0.9);
+}
+
+
+.icon_facebook{
+    font-size: 40px;
+    color: #0866FF;
+    transition: .5s;
+}
+
+
+button{
+    margin-top:30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width:86px;
+    opacity: 0px;
+    height: 44px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 6px;
+    background-color: #48747F;
+    color: #ffffff;
+    border: none;
+    transition: 0.4s;
+}
+
+
+button:hover{
+    background-color: rgb(74,141,136);
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+
+.create_account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative; 
+    bottom: 80px;
+    align-self: center;
+}
+
+
+.mail{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 9%;
+    right: 7%;
+}
+
+
+.lock{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 37%;
+    right: 7%
+}
+
+
+.co{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+    bottom: 40px;
+    padding-right: 10px;
+}
+
+
+::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new{
+    font-size: 0.9rem;
+    font-weight: 405;
+    margin-top: -1vh;
+}
+
+.go_sign_up{
+    color: #48747F;
+    font-weight: 600;
+    padding-right: 4px;
+}
+
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 2.5rem;
+    -webkit-text-fill-color: transparent;
+    transition: .5s;
+}
+
