@@ -438,6 +438,7 @@ select{
     gap: 10px;
     direction: rtl;
     transition: 0.4s;
+    border: 0px;
 }
 
 .more button:hover{
